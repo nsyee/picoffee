@@ -1,12 +1,12 @@
 {
-  "name":         "coffee-script",
-  "description":  "Unfancy JavaScript",
+  "name":         "picoffee",
+  "description":  "a minimum dialect of CoffeeScript.",
   "keywords":     ["javascript", "language", "coffeescript", "compiler"],
-  "author":       "Jeremy Ashkenas",
-  "version":      "1.3.3",
+  "author":       "Yuya Nishiyama",
+  "version":      "0.1",
   "licenses":     [{
     "type":       "MIT",
-    "url":        "https://raw.github.com/jashkenas/coffee-script/master/LICENSE"
+    "url":        "https://raw.github.com/nsyee/picoffee/master/LICENSE"
   }],
   "engines":      {
     "node":       ">=0.4.0"
@@ -19,11 +19,11 @@
     "coffee":     "./bin/coffee",
     "cake":       "./bin/cake"
   },
-  "homepage":     "http://coffeescript.org",
-  "bugs":         "https://github.com/jashkenas/coffee-script/issues",
+  "homepage":     "https://github.com/nsyee/picoffee",
+  "bugs":         "https://github.com/nsyee/picoffee/issues",
   "repository":   {
     "type": "git",
-    "url": "git://github.com/jashkenas/coffee-script.git"
+    "url": "git://github.com/nsyee/picoffee.git"
   },
   "devDependencies": {
     "uglify-js":  ">=1.0.0",
